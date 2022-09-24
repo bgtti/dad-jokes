@@ -1,1 +1,16 @@
+:root{
+    --cLightBlue:#a3d4ff;
+    --cBlue: #65b1fc;
+    --cYellow: #fdba12;
+    --cGray: #414952;
+    --cGrayShadow: #4149527c;
+    --fIndieFlower: 'Indie Flower',  cursive;
+}
+html, body{
+    background-color: var(--cLightBlue);
+    height: 100%;
+}
 
+#root{
+    height: 100%;
+}

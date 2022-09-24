@@ -7,10 +7,15 @@ class Nav extends Component {
     render() {
         return (
             <nav className='Nav'>
+                {/* Emoji Source: Emoji icon created by Freepik - Flaticon Available at https://www.flaticon.com/free-icons/emoji */}
                 <img src={EmojiMain} alt="Laughing Emoji" className='Nav-EmojiMain' />
-                <div>
-                    <h1>Dad Jokes</h1>
-                    <button>Generate Joke</button>
+                <div className='Nav-LeftContainer'>
+                    <div className='Nav-H1Container'>
+                        <h1 className='Nav-H1'>Dad Jokes</h1>
+                    </div>
+                    <div className='Nav-BtnContainer'>
+                        <button className='Nav-Btn'>Generate Joke</button>
+                    </div>
                 </div>
 
             </nav>

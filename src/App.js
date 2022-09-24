@@ -1,13 +1,13 @@
 import './App.css';
 import Nav from './01-Nav';
-import Jokes from './02-Jokes';
-import Footer from './03-Footer';
+import JokesContainer from './02-JokesContainer.js';
+import Footer from './04-Footer';
 
 function App() {
   return (
     <div className="App">
       <Nav></Nav>
-      <Jokes></Jokes>
+      <JokesContainer></JokesContainer>
       <Footer></Footer>
     </div>
   );

@@ -1,0 +1,11 @@
+.JokesContainer{
+    /* border: 2px solid var(--cBlue); */
+    margin: 10px 0;
+}
+.JokesContainer > * {
+    border-bottom: 1px solid var(--cGrayShadow);
+    padding: 10px 0;
+}
+.JokesContainer div:last-child {
+    border-bottom: none;
+}
