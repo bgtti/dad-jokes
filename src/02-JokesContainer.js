@@ -6,12 +6,20 @@ class JokesContainer extends Component {
 
     render() {
         return (
+            // <div className='JokesContainer'>
+            //     {this.props.jokes.map(joke => (
+            //         <Jokes rating={joke.rating} joke={joke.joke} key={joke.key}></Jokes>
+            //     ))}
+            // </div>
+            // <div className='JokesContainer'>
+            //     {this.props.jokes.map(joke => (
+            //         <p>{joke.joke}</p>
+            //     ))}
+            // </div>
             <div className='JokesContainer'>
-                <Jokes></Jokes>
-                <Jokes></Jokes>
-                <Jokes></Jokes>
-                <Jokes></Jokes>
-                <Jokes></Jokes>
+                {this.props.jokes.map(joke => (
+                    <Jokes rating={joke.rating} thejoke={joke.joke}></Jokes>
+                ))}
             </div>
         )
     }
