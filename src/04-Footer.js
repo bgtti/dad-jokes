@@ -3,7 +3,7 @@ import './04-Footer.css';
 import GithubIcon from './Images/github.png';
 
 
-//Icons source:
+//Icon source:
 //Github icon created by Pixel perfect from https://www.flaticon.com/free-icons/github
 
 class Footer extends Component {
