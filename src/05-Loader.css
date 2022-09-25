@@ -1,0 +1,79 @@
+.Loader{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--cGray);
+    border-radius:50%;
+    animation: borderChange 1.5s infinite alternate;
+}
+.Loader-Img {
+    height: 150px;
+    width: 150px;
+    background-image: url('./Images/emoji_loading_2.png');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    animation: swaping 1.5s infinite alternate;
+}
+
+.Loader p {
+    font-family: var(--fIndieFlower);
+    font-weight: bold;
+    font-size: 23px;
+    color: var(--cGray);
+    animation: colorChange 1.5s infinite alternate;
+}
+@keyframes borderChange {
+    0% {
+        border: 2px solid var(--cGray);
+    }
+
+    30% {
+        border: 2px solid var(--cGray);
+    }
+
+    70% {
+        border: 2px solid var(--cGrayShadow);
+    }
+
+    100% {
+        border: 2px solid var(--cGrayShadow);
+    }
+}
+
+@keyframes swaping {
+    0% {
+        background-image: url('./Images/emoji_loading_2.png')
+    }
+
+    30% {
+        background-image: url('./Images/emoji_loading_2.png')
+    }
+
+    70% {
+        background-image: url('./Images/emoji_loading_1.png')
+    }
+
+    100% {
+        background-image: url('./Images/emoji_loading_1.png')
+    }
+}
+@keyframes colorChange {
+    0% {
+        color: var(--cGray);
+    }
+
+    30% {
+        color: var(--cGray);
+    }
+
+    70% {
+        color: var(--cGrayShadow);
+    }
+
+    100% {
+        color: var(--cGrayShadow);
+    }
+}

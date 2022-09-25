@@ -3,7 +3,13 @@ import './01-Nav.css';
 import EmojiMain from './Images/emoji_main.png'
 
 class Nav extends Component {
-
+    constructor(props) {
+        super(props);
+        this.getNewJokes = this.getNewJokes.bind(this);
+    };
+    getNewJokes() {
+        this.props.getNewJokes()
+    }
     render() {
         return (
             <nav className='Nav'>
@@ -14,7 +20,7 @@ class Nav extends Component {
                         <h1 className='Nav-H1'>Dad Jokes</h1>
                     </div>
                     <div className='Nav-BtnContainer'>
-                        <button className='Nav-Btn'>Generate Joke</button>
+                        <button className='Nav-Btn' onClick={this.getNewJokes}>Generate Jokes</button>
                     </div>
                 </div>
 

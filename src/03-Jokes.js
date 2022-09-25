@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './03-Jokes.css';
-// import Emoji from './Images/emoji_5.png'
 import Arrow from './Images/arrow.png'
 import Emoji1 from './Images/emoji_1.png'
 import Emoji2 from './Images/emoji_2.png'
@@ -34,9 +33,9 @@ class Jokes extends Component {
         return (
             <div className='Jokes'>
                 <div className='Jokes-RatingContainer'>
-                    <img src={Arrow} alt="" className='Jokes-RatingArrow Jokes-RatingArrowUp' />
+                    <img src={Arrow} alt="Increase rating icon" className='Jokes-RatingArrow Jokes-RatingArrowUp' data-id={this.props.id} onClick={((e) => { this.props.changeRating(e, "up") })} />
                     <div className='Jokes-RatingNumberContainer'><p>{this.props.rating}</p></div>
-                    <img src={Arrow} alt="" className='Jokes-RatingArrow Jokes-RatingArrowDown' />
+                    <img src={Arrow} alt="Decrease rating icon" className='Jokes-RatingArrow Jokes-RatingArrowDown' data-id={this.props.id} onClick={((e) => { this.props.changeRating(e, "down") })} />
                 </div>
                 <div className='Jokes-JokeContainer'>
                     <p>{this.props.thejoke}</p>
