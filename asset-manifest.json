@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/.../static/css/main.14077dab.css",
-    "main.js": "/.../static/js/main.61e83052.js",
-    "static/js/787.28cb0dcd.chunk.js": "/.../static/js/787.28cb0dcd.chunk.js",
-    "static/media/emoji_loading_2.png": "/.../static/media/emoji_loading_2.5d3e9cd9491d96a84b3b.png",
-    "static/media/emoji_5.png": "/.../static/media/emoji_5.ffbc4c399fc155af4428.png",
-    "static/media/emoji_loading_1.png": "/.../static/media/emoji_loading_1.297952886fd62254bfbe.png",
-    "static/media/emoji_4.png": "/.../static/media/emoji_4.01635c34bc0740667935.png",
-    "static/media/emoji_1.png": "/.../static/media/emoji_1.23f6585f872524af6240.png",
-    "static/media/emoji_main.png": "/.../static/media/emoji_main.a7a0535b8028ac8366d4.png",
-    "static/media/emoji_2.png": "/.../static/media/emoji_2.7a52ab2a4cbbfb70744a.png",
-    "static/media/emoji_3.png": "/.../static/media/emoji_3.7f9b96b2545435858536.png",
-    "index.html": "/.../index.html",
-    "main.14077dab.css.map": "/.../static/css/main.14077dab.css.map",
-    "main.61e83052.js.map": "/.../static/js/main.61e83052.js.map",
-    "787.28cb0dcd.chunk.js.map": "/.../static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/dad-jokes/static/css/main.850cfd3a.css",
+    "main.js": "/dad-jokes/static/js/main.5e586e96.js",
+    "static/js/787.28cb0dcd.chunk.js": "/dad-jokes/static/js/787.28cb0dcd.chunk.js",
+    "static/media/emoji_loading_2.png": "/dad-jokes/static/media/emoji_loading_2.5d3e9cd9491d96a84b3b.png",
+    "static/media/emoji_5.png": "/dad-jokes/static/media/emoji_5.ffbc4c399fc155af4428.png",
+    "static/media/emoji_loading_1.png": "/dad-jokes/static/media/emoji_loading_1.297952886fd62254bfbe.png",
+    "static/media/emoji_4.png": "/dad-jokes/static/media/emoji_4.01635c34bc0740667935.png",
+    "static/media/emoji_1.png": "/dad-jokes/static/media/emoji_1.23f6585f872524af6240.png",
+    "static/media/emoji_main.png": "/dad-jokes/static/media/emoji_main.a7a0535b8028ac8366d4.png",
+    "static/media/emoji_2.png": "/dad-jokes/static/media/emoji_2.7a52ab2a4cbbfb70744a.png",
+    "static/media/emoji_3.png": "/dad-jokes/static/media/emoji_3.7f9b96b2545435858536.png",
+    "index.html": "/dad-jokes/index.html",
+    "main.850cfd3a.css.map": "/dad-jokes/static/css/main.850cfd3a.css.map",
+    "main.5e586e96.js.map": "/dad-jokes/static/js/main.5e586e96.js.map",
+    "787.28cb0dcd.chunk.js.map": "/dad-jokes/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14077dab.css",
-    "static/js/main.61e83052.js"
+    "static/css/main.850cfd3a.css",
+    "static/js/main.5e586e96.js"
   ]
 }
