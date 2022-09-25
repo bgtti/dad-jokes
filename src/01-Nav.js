@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './01-Nav.css';
-import EmojiMain from './Images/emoji_main.png'
+import EmojiMain from './Images/emoji_main.png' //Source: Emoji icon created by Freepik - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
 
 class Nav extends Component {
     constructor(props) {
@@ -13,7 +13,6 @@ class Nav extends Component {
     render() {
         return (
             <nav className='Nav'>
-                {/* Emoji Source: Emoji icon created by Freepik - Flaticon Available at https://www.flaticon.com/free-icons/emoji */}
                 <img src={EmojiMain} alt="Laughing Emoji" className='Nav-EmojiMain' />
                 <div className='Nav-LeftContainer'>
                     <div className='Nav-H1Container'>

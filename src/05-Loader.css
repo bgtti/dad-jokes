@@ -42,7 +42,10 @@
         border: 2px solid var(--cGrayShadow);
     }
 }
-
+/* 
+Source of loader icon:
+Emoji icons created by Freepik - Flaticon, available at: https: //www.flaticon.com/free-icons/emoji
+ */
 @keyframes swaping {
     0% {
         background-image: url('./Images/emoji_loading_2.png')

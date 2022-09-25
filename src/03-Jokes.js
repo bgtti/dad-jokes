@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './03-Jokes.css';
-import Arrow from './Images/arrow.png'
-import Emoji1 from './Images/emoji_1.png'
-import Emoji2 from './Images/emoji_2.png'
-import Emoji3 from './Images/emoji_3.png'
-import Emoji4 from './Images/emoji_4.png'
-import Emoji5 from './Images/emoji_5.png'
-import EmojiMain from './Images/emoji_main.png'
+import Arrow from './Images/arrow.png' //Source: Arrow icons created by Kirill Kazachek - Flaticon, href="https://www.flaticon.com/free-icons/angry" title="angry icons"
+import Emoji1 from './Images/emoji_1.png' //Source: Angry icons created by Vectors Market - Flaticon, href="https://www.flaticon.com/free-icons/sad" title="sad icons"
+import Emoji2 from './Images/emoji_2.png' //Source: Sad icons created by Vectors Market - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
+import Emoji3 from './Images/emoji_3.png' //Source: Emoji icons created by Vectors Market - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
+import Emoji4 from './Images/emoji_4.png' //Source: Emoji icons created by Vectors Market - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
+import Emoji5 from './Images/emoji_5.png' //Source: Emoji icons created by Vectors Market - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
+import EmojiMain from './Images/emoji_main.png' //Source: Emoji icon created by Freepik - Flaticon, href="https://www.flaticon.com/free-icons/emoji" title="emoji icons"
 
 class Jokes extends Component {
     constructor(props) {
